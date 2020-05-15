@@ -1,0 +1,19 @@
+.btn1 {
+    border: 1px solid;
+}
+
+.btn1:hover {
+    background-color: var(--dark-green-color);
+}
+
+.btn--big {
+    font-size: 17px;
+    width: 140px;
+    padding: 18px 18px;
+}
+
+.btn--small {
+    font-size: 13px;
+    width: 105px;
+    padding: 12px 16px;
+}
