@@ -3,8 +3,14 @@
   position: relative;
 }
 
+.project__name {
+  font-size: 25px;
+}
+
 .project__content {
   width: 45%;
+  max-height: 260px;
+  overflow: hidden;
 }
 
 .project__src {
