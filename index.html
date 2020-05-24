@@ -41,8 +41,8 @@
     <link rel="stylesheet" href="./css/section-title.css" /> 
 
     <link rel="stylesheet" href="./css/container/header.css">
-    <!-- <link rel="stylesheet" href="./css/container/about-me.css" /> -->
-    <link rel="stylesheet" href="./css/container/body-page.css" />
+    <link rel="stylesheet" href="./css/container/about-me.css"/>
+    <link rel="stylesheet" href="./css/container/body-page.css"/>
     <link rel="stylesheet" href="./css/container/info-contact.css">
     <link rel="stylesheet" href="./css/container/experience.css">
 
@@ -55,6 +55,7 @@
     	
     <link href="https://fonts.googleapis.com/css?family=Fira+Code:300,400,500|Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <!--BODY--> 
 <!-- RESPONSIVE CHƯA ĐƯỢC!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
@@ -149,6 +150,7 @@
 		<div class="card-deck">
 			<!-- Card 1 -->
   			<div class="card mb-4">
+                <div data-aos="zoom-out">
 				<!--Card image-->
     			<div class="view overlay">
       				<img class="card-img-top" src="./image/thanhco.jpg" alt="Card image cap">
@@ -163,9 +165,11 @@
 					<!--Text-->
       				<p class="card-text">I was born and grow up in Quang Tri Province, Vietnam. It is known as one of the fiercest battlefields in the war against the US.</p> 
         		</div>
+                </div>
 			</div>
 			<!-- Card 2 -->
   			<div class="card mb-4">
+                <div data-aos="zoom-out">
 				<!--Card image-->
     			<div class="view overlay">
       				<img class="card-img-top" src="./image/truongcapba.jpg" alt="Card image cap">
@@ -180,9 +184,11 @@
 					<!--Text-->
       				<p class="card-text">My high school is Quang Tri Town High School. I have a lot of memories and happiness here.</p>
         		</div>
+                </div>
 			</div>
 			<!-- Card 3 -->
-  			<div class="card mb-4"> 
+  			<div class="card mb-4">
+                <div data-aos="zoom-out">
 				<!--Card image-->
     			<div class="view overlay">
       				<img class="card-img-top" src="./image/olympia.jpg" alt="Card image cap">
@@ -197,6 +203,7 @@
 					<!--Text-->
       				<p class="card-text">And this is one of my very interesting journeys. Maybe if I hadn't spent too much time for it, this website would have been nicer than now ;)</p>
         		</div>
+                </div>
 			</div>
   		</div>
 		<!-- End: Card deck -->
@@ -205,6 +212,7 @@
 		<section class="about-me d-block" id="section-about-me">
             <div class="about-me__content d-flex"> <div class="container"> <div class="row">
                 <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8">
+                <div data-aos="fade-up" data-aos-duration="1500">
                     <p class="about-me__text dark-gray-txt-color mt-0">Hello! I'm Son, now I'm a student at FIT, <span class="primary-txt-color">HCMUS</span>. I want to become a <span class="primary-txt-color">full-stack web developer</span>.
                     </p>
 
@@ -252,12 +260,15 @@
                         </li>
                     </ul>
                 </div>
+                </div>
                 <div class="col-sm-12 col-md-1 col-lg-1 col-xl-1"> </div>
                 <div class="d-flex justify-content-end align-items-start position-relative z-index-1 col-sm-12 col-md-3 col-lg-3 col-xl-3">
+                <div data-aos="fade-up" data-aos-duration="1500">
                     <div class="border-round z-index-1">
                         <img class="img-fluid" src="./image/kiyeu.jpg">
                     </div>
                     <!-- <div class="avatar__border position-absolute z-index-0 border-round"></div> -->
+                </div>
                 </div>
             </div> </div> </div>
         </section>
@@ -272,6 +283,7 @@
       	</div>
 		<section class="experience d-flex flex-column" id="section-experience">
 			<div class="timeline mt-secondary"> <div class="container"> <div class="row">
+                <div data-aos="fade-up" data-aos-duration="1500">
                 <div class="timeline__tab float-left col-sm-12 col-md-4 col-lg-4 col-xl-4">
                     <button class="timeline__btn cursor-pointer dark-gray-txt-color border-0 w-100 ff-secondary txt-align-left dark-gray-bd-color" onclick="openCity(event, 'id-thpttxqt')" id="defaultOpen">Quang Tri Town High School</button>
                     <button class="timeline__btn cursor-pointer dark-gray-txt-color border-0 w-100 ff-secondary txt-align-left dark-gray-bd-color" onclick="openCity(event, 'id-hcmus')">University of Science</button> 
@@ -300,7 +312,6 @@
                         </ul>
                     </div>
                 </div>
-
                 <div id="id-hcmus" class="timeline-item float-left h-100 dark-gray-txt-color col-sm-12 col-md-8 col-lg-8 col-xl-8">
                     <div class="timeline-item__header timeline-item__header d-flex align-items-center fw-600">
                         <p class="m-0 gray-txt-color">Student at</p>
@@ -321,6 +332,7 @@
                         </ul>
                     </div>
                 </div>
+                </div>
             </div> </div> </div>  
 		</section>
         <!-- End: Where I've worked --> 
@@ -339,10 +351,10 @@
         <section id="section-projects">
             <!--PROJECT 1-->
             <div class="project d-flex flex-column justify-content-center position-relative mt-secondary">
-                <div class="z-index-0 position-absolute d-flex col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                <div class="z-index-0 position-absolute d-flex col-sm-6 col-md-6 col-lg-6 col-xl-6" data-aos="zoom-in-right">
                     <img class="project__src border-round border-shadow-primary img-fluid" src="./image/huong_contest.png" alt="Ecommerce web app">
                 </div>
-                <div class="d-flex flex-column justify-content-center align-items-end">
+                <div class="d-flex flex-column justify-content-center align-items-end" data-aos="fade-up" data-aos-duration="2000">
                     <div class="project__title z-index-1">
                         <p class="ff-secondary primary-txt-color txt-align-right fs-primary"> Featured Project </p>
                         <h2 class="project__name gray-txt-color txt-align-right fs-22"> Huong contest website </h2>
@@ -366,7 +378,7 @@
             </div>
             <!--PROJECT 2--> 
             <div class="project d-flex flex-column justify-content-center position-relative mt-secondary">
-                <div class="d-flex flex-column justify-content-center align-items-start">
+                <div class="d-flex flex-column justify-content-center align-items-start" data-aos="fade-up" data-aos-duration="2000">
                     <div class="project__title z-index-1">
                         <p class="ff-secondary primary-txt-color txt-align-left fs-primary"> Featured Project </p>
                         <h2 class="project__name gray-txt-color txt-align-left fs-22"> Astronomy and Anime News 1.0 </h2>
@@ -386,16 +398,16 @@
                         </li>
                     </ul>
                 </div>  
-                <div class="z-index-0 position-absolute d-flex col-sm-6 col-md-6 col-lg-6 col-xl-6 right-0">
+                <div class="z-index-0 position-absolute d-flex col-sm-6 col-md-6 col-lg-6 col-xl-6 right-0" data-aos="zoom-in-left">
                     <img class="project__src border-round border-shadow-primary img-fluid" src="./image/astro_anime_1.png" alt="Ecommerce web app">
                 </div>
             </div>
             <!--PROJECT 3-->
             <div class="project d-flex flex-column justify-content-center position-relative mt-secondary">
-                <div class="z-index-0 position-absolute d-flex col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                <div class="z-index-0 position-absolute d-flex col-sm-6 col-md-6 col-lg-6 col-xl-6" data-aos="zoom-in-right">
                     <img class="project__src border-round border-shadow-primary img-fluid" src="./image/astro_anime_2.png" alt="Ecommerce web app">
                 </div>
-                <div class="d-flex flex-column justify-content-center align-items-end">
+                <div class="d-flex flex-column justify-content-center align-items-end" data-aos="fade-up" data-aos-duration="2000">
                     <div class="project__title z-index-1">
                         <p class="ff-secondary primary-txt-color txt-align-right fs-primary"> Featured Project </p>
                         <h2 class="project__name gray-txt-color txt-align-right fs-22"> Astronomy and Anime News 2.0 </h2>
@@ -416,14 +428,14 @@
                     </ul>
                 </div>  
             </div>
-            <!--PROJECT 4--> 
+            <!--PROJECT 4-->
             <div class="project d-flex flex-column justify-content-center position-relative mt-secondary">
-                <div class="d-flex flex-column justify-content-center align-items-start">
+                <div class="d-flex flex-column justify-content-center align-items-start" data-aos="fade-up" data-aos-duration="2000">
                     <div class="project__title z-index-1">
                         <p class="ff-secondary primary-txt-color txt-align-left fs-primary"> Featured Project </p>
                         <h2 class="project__name gray-txt-color txt-align-left fs-22"> Christmas 2019 1.0 </h2>
                     </div>
-                    <p class="project__content z-index-1 border-0 gray-txt-color light-dark-bg-color border-round txt-align-left fs-secondary p-3 m-0"> I love winter, snow and Christmas so much. I wish my life was always covered with white snow. Coming to this site, you will learn about Christmas all around the world, listen to peaceful music, watch the snowfall and even write to Santa...
+                    <p class="project__content z-index-1 border-0 gray-txt-color light-dark-bg-color border-round txt-align-left fs-secondary p-3 m-0"> I love winter, snow and Christmas so much. I wish my life was always covered with white snow. Coming to this site, you will learn about Christmas all around the world, listen peaceful music, watch the snowfall and even "write to Santa"...
                         <span class="primary-txt-color">Merry Christmas to everyone.</span>
                     </p>
                     <ul class="list-item pl-0 d-flex">
@@ -434,17 +446,21 @@
                             <a class="list-item__link txt-decoration-none dark-gray-txt-color ff-secondary" href="#" title="CSS">CSS</a>
                         </li>
                         <li class="list-item__item ml-17">
+                            <a class="list-item__link txt-decoration-none dark-gray-txt-color ff-secondary" href="#" title="JS">JS</a>
+                        </li>
+                        <li class="list-item__item ml-17">
                             <a class="list-item__link txt-decoration-none dark-gray-txt-color ff-secondary" href="#" title="Bootstrap">Bootstrap</a>
                         </li>
                     </ul>
-                </div>  
-                <div class="z-index-0 position-absolute d-flex col-sm-6 col-md-6 col-lg-6 col-xl-6 right-0">
+                </div> 
+                <div class="z-index-0 position-absolute d-flex col-sm-6 col-md-6 col-lg-6 col-xl-6 right-0" data-aos="zoom-in-left">
                     <img class="project__src border-round border-shadow-primary img-fluid" src="./image/christmas_1.png" alt="Ecommerce web app">
                 </div>
             </div>
             <!--END: PROJECTS OF SECTION SOME THINGS I'VE BUILT-->
         </section>
       	<!-- End: Some Things I've Built -->
+        
     </main> 
     <!-- TEST SNOWFALL (DELETE AFTER) --><!--ERROR WITH CLASS "SKY" --> 
     <section class="sky">
@@ -666,5 +682,8 @@
 	<script src="./js/renderOtherProjects.js"></script>
 	<!-- <script src="./js/audio.js"></script> -->
 	<script src="./js/page/index.js"></script>
-	
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </html> 
