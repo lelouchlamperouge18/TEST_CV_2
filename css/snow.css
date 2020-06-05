@@ -37,4 +37,5 @@
   height: 100%;
   color: #FFF;
   display: block;
+  /*z-index: 0;*/
 }
